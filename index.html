@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form progress</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+	<div>
+		<h1 class="text-center">Progress Bar</h1>
+
+		<div id="progress">
+			<div class="progress">
+				<div id="progress-color"></div>
+			</div>
+			<div class="tasks">
+				<label class="container">Name
+				  <input type="checkbox"  id="name-checkbox" disabled>
+				</label>
+
+				<label class="container">Email Address
+				  <input type="checkbox"  id="email-checkbox" disabled>
+				</label>
+
+				<label class="container">Phone Number
+				  <input type="checkbox"  id="phone-checkbox" disabled>
+				</label>
+
+				<label class="container">Website
+				  <input type="checkbox"  id="website-checkbox" disabled>
+				</label>
+
+				<label class="container">Notes
+				  <input type="checkbox"  id="notes-checkbox" disabled>
+				</label>
+			</div>
+		</div>
+	</div>
+	
+	<div>
+		<form id="autosave">
+			<div>
+				<label for="name">Name</label>
+				<input type="text" id="name">
+			</div>
+
+			<div>
+				<label for="email">Email Address</label>
+				<input type="email" id="email">
+			</div>
+
+			<div>
+				<label for="phone">Phone</label>
+				<input type="tel" id="phone">
+			</div>
+
+			<div>
+				<label for="website">Website</label>
+				<input type="url" id="website">
+			</div>
+
+			<div>
+				<label for="notes">Notes</label>
+				<textarea id="notes"></textarea>
+			</div>
+
+			<button>Submit</button>
+		</form>
+	</div>
+</div>
+
+<script src="app.js"></script>	
+</body>
+</html>

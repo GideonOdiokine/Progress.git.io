@@ -1,0 +1,63 @@
+body{
+    width: 88%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+div.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+div.container >div{
+    background-color: #ddd;
+    width: 100%;
+    margin: 10px;
+	padding: 20px;
+}
+label,
+input,
+textarea {
+	width: 100%;
+}
+input,
+textarea {
+	margin-bottom: 1em;
+}
+
+.progress .p0{
+	background-color: green;
+	width: 0%;
+	height: 20px;
+}
+
+.progress .p20{
+	background-color: green;
+	width: 20%;
+	height: 20px;
+}
+
+.progress .p40{
+	background-color: green;
+	width: 40%;
+	height: 20px;
+}
+
+.progress .p60{
+	background-color: green;
+	width: 60%;
+	height: 20px;
+}
+
+.progress .p80{
+	background-color: green;
+	width: 80%;
+	height: 20px;
+}
+
+.progress .p100{
+	background-color: green;
+	width: 100%;
+	height: 20px;
+}
